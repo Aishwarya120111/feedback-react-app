@@ -45,7 +45,7 @@ function App() {
             <Form.Control placeholder="Last Name" onChange={e => updateFormState('lastname', e.target.value)} />
           </Form.Group>
           <Form.Group>
-            <Form.Label>MailId</Form.Label>
+            <Form.Label>Email</Form.Label>
             <Form.Control placeholder="Email" onChange={e => updateFormState('email', e.target.value)} />
           </Form.Group>
           <Form.Group>

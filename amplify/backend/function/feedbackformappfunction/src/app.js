@@ -34,9 +34,9 @@ app.use(function(req, res, next) {
 const AWS = require('aws-sdk');
 const docClient = new AWS.DynamoDB.DocumentClient();
 
-function id(){
-  return Math.random().toString(36).substring(2) + Date.now().toString(36);
-}
+// function id(){
+//   return Math.random().toString(36).substring(2) + Date.now().toString(36);
+// }
 
 app.post('/feedbackapi', function(req, res) {
   console.log(req);
@@ -44,7 +44,7 @@ app.post('/feedbackapi', function(req, res) {
   var params = {
     TableName : process.env.STORAGE_FEEDBACKFORM_NAME,
     Item : {
-      id : id(),
+      
       firstname: req.body.firstname,
       lastname: req.body.lastname,
       email: req.body.email,
