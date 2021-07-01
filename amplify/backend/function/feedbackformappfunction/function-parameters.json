@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "storage": {
+      "feedbackformdynamo": [
+        "create",
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/feedbackapi",
+      "lambdaFunction": "feedbackformappfunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/feedbackapi"
+    }
+  ],
+  "resourceName": "feedbackformappapi",
+  "apiName": "feedbackformappapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "feedbackformappfunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-feedbackformapp-dev-202604-authRole",
+    "unAuthRoleName": "amplify-feedbackformapp-dev-202604-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "feedbackformappfunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

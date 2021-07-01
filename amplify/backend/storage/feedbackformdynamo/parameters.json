@@ -1,0 +1,5 @@
+{
+    "tableName": "feedbackformdynamotable",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

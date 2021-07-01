@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-feedbackformapp-dev-202604-authRole",
+      "UnauthRoleArn": "arn:aws:iam::521684100250:role/amplify-feedbackformapp-dev-202604-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::521684100250:role/amplify-feedbackformapp-dev-202604-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-feedbackformapp-dev-202604-deployment",
+      "UnauthRoleName": "amplify-feedbackformapp-dev-202604-unauthRole",
+      "StackName": "amplify-feedbackformapp-dev-202604",
+      "StackId": "arn:aws:cloudformation:us-east-1:521684100250:stack/amplify-feedbackformapp-dev-202604/79b3abb0-da7c-11eb-8f25-0ea6aa6eaed9",
+      "AmplifyAppId": "d37ck76skgtucz"
+    },
+    "categories": {
+      "function": {
+        "feedbackformappfunction": {
+          "deploymentBucketName": "amplify-feedbackformapp-dev-202604-deployment",
+          "s3Key": "amplify-builds/feedbackformappfunction-414c43364a536a684758-build.zip"
+        }
+      }
+    }
+  }
+}
